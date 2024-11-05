@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive;
+}
+h{
+    text-align: top;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    justify-content: flex-start;
+    font-weight: 1000;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://wallpapers.com/images/hd/yoga-background-a37ez9wwirg21isp.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.About{
+    position: relative;
+    width:500px;
+    height: 540px;
+    background: transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}

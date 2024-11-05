@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive;
+}
+h{
+    text-align: top;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    justify-content: flex-start;
+    font-weight: 1000;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://tse2.mm.bing.net/th?id=OIP.MyzseIIy5_1Vs0bVJxWrZwHaE8&pid=Api&P=0&h=180) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.free{
+    position: center;
+    width:400px;
+    height: 540px;
+    background: transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    font-size: 70%;
+    padding: 10%;
+    
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: rgb(13, 126, 224);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+}
+.pre{
+    position: center;
+    width:400px;
+    height: 540px;
+    background: transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    font-size: 70%;
+    padding: 10%;
+    
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
